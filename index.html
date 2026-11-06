@@ -1,0 +1,416 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Tharsi Thasan - Digital Marketing Executive Portfolio, SEO, Google Ads and Social Media Marketing.">
+<title>Tharsi Thasan | Digital Marketing Portfolio</title>
+
+<style>
+:root {
+  --navy: #101b32;
+  --orange: #f46b45;
+  --light: #f5f7fb;
+  --text: #253047;
+  --muted: #68748a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: var(--text);
+  line-height: 1.7;
+  background: white;
+}
+
+nav {
+  background: var(--navy);
+  padding: 18px 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  color: white;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: var(--orange);
+}
+
+.hero {
+  background: var(--navy);
+  color: white;
+  padding: 110px 8%;
+  min-height: 470px;
+  display: flex;
+  align-items: center;
+}
+
+.hero-content {
+  max-width: 750px;
+}
+
+.hero h1 {
+  font-size: clamp(38px, 6vw, 65px);
+  line-height: 1.15;
+  margin: 15px 0;
+}
+
+.hero h1 span {
+  color: var(--orange);
+}
+
+.hero p {
+  color: #d4d9e4;
+  font-size: 17px;
+  max-width: 620px;
+}
+
+.tag {
+  color: var(--orange);
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 13px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 25px;
+  background: var(--orange);
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background: #db5734;
+}
+
+section {
+  padding: 75px 8%;
+}
+
+.section-title {
+  font-size: 32px;
+  color: var(--navy);
+  margin-bottom: 12px;
+}
+
+.section-intro {
+  color: var(--muted);
+  margin-bottom: 30px;
+}
+
+.about {
+  max-width: 850px;
+}
+
+.skills, .projects, .certificates {
+  background: var(--light);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(16,27,50,.06);
+  border: 1px solid #e9edf4;
+}
+
+.card h3 {
+  color: var(--navy);
+  margin-bottom: 10px;
+}
+
+.card p, .card li {
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.card ul {
+  padding-left: 18px;
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.skill-tags span {
+  background: white;
+  color: var(--navy);
+  padding: 10px 17px;
+  border-radius: 5px;
+  border: 1px solid #e0e5ed;
+  font-size: 14px;
+}
+
+.project-number {
+  color: var(--orange);
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.contact {
+  background: var(--navy);
+  color: white;
+  text-align: center;
+}
+
+.contact h2 {
+  color: white;
+}
+
+.contact p {
+  color: #d4d9e4;
+  margin: 10px 0;
+}
+
+.contact a {
+  color: var(--orange);
+  text-decoration: none;
+}
+
+footer {
+  background: #0b1427;
+  color: #c5ccda;
+  padding: 20px;
+  text-align: center;
+  font-size: 13px;
+}
+
+@media(max-width:700px) {
+  nav {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  nav a {
+    margin: 5px;
+    font-size: 12px;
+  }
+
+  .hero {
+    padding: 75px 8%;
+  }
+
+  section {
+    padding: 55px 7%;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+  <div class="logo">THARSI THASAN.</div>
+  <div>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="hero-content">
+    <div class="tag">DIGITAL MARKETING PROFESSIONAL</div>
+    <h1>Hello, I'm <span>Tharsi Thasan</span></h1>
+    <p>
+      Digital Marketing Executive focused on SEO, social media marketing,
+      Google Ads and Meta Ads. Passionate about helping businesses
+      strengthen their online presence and generate leads.
+    </p>
+    <a class="btn" href="#projects">Explore My Projects</a>
+    <a class="btn" href="#contact">Contact Me</a>
+  </div>
+</header>
+
+<section id="about">
+  <div class="about">
+    <div class="tag">GET TO KNOW ME</div>
+    <h2 class="section-title">About Me</h2>
+    <p>
+      I am a B.Com graduate and Digital Marketing professional
+      with internship and practical project experience in SEO,
+      social media marketing, keyword research and paid advertising.
+      I have worked on digital marketing activities for different
+      business sectors and enjoy developing creative marketing
+      strategies that support business growth.
+    </p>
+    <p>
+      I am currently based in Dubai, UAE, and looking for
+      opportunities to grow as a Digital Marketing Executive.
+    </p>
+  </div>
+</section>
+
+<section class="skills" id="skills">
+  <div class="tag">WHAT I CAN DO</div>
+  <h2 class="section-title">My Skills</h2>
+  <p class="section-intro">Digital marketing skills and tools.</p>
+
+  <div class="skill-tags">
+    <span>Search Engine Optimization</span>
+    <span>Keyword Research</span>
+    <span>On-Page SEO</span>
+    <span>Technical SEO</span>
+    <span>Google Ads</span>
+    <span>Meta Ads</span>
+    <span>Social Media Marketing</span>
+    <span>Lead Generation</span>
+    <span>Competitor Analysis</span>
+    <span>Content Creation</span>
+    <span>Canva</span>
+    <span>Semrush</span>
+    <span>Google Analytics</span>
+    <span>HubSpot</span>
+  </div>
+</section>
+
+<section id="experience">
+  <div class="tag">MY JOURNEY</div>
+  <h2 class="section-title">Experience</h2>
+
+  <div class="grid">
+    <div class="card">
+      <h3>Bluepin – Digital Marketing Intern</h3>
+      <p>Worked on SEO, SEM, keyword research, social media
+      marketing and live advertising campaigns for business clients.</p>
+    </div>
+
+    <div class="card">
+      <h3>Infocuz Technologies – Digital Marketing Intern</h3>
+      <p>Gained practical exposure to digital marketing,
+      Figma poster design and Facebook advertising campaigns.</p>
+    </div>
+
+    <div class="card">
+      <h3>JS Furniture Mart – Digital Marketing</h3>
+      <p>Supported social media promotions, WhatsApp marketing,
+      promotional posters and Facebook and Instagram campaigns.</p>
+    </div>
+  </div>
+</section>
+
+<section class="projects" id="projects">
+  <div class="tag">MY WORK</div>
+  <h2 class="section-title">Featured Projects</h2>
+  <p class="section-intro">A selection of my digital marketing work.</p>
+
+  <div class="grid">
+
+    <div class="card">
+      <div class="project-number">PROJECT 01</div>
+      <h3>Hayyan Group – SEO Audit</h3>
+      <p>Website audit, technical SEO analysis, keyword research,
+      competitor analysis and optimization recommendations.</p>
+      <p><strong>Tools:</strong> Semrush, SEO audit tools</p>
+    </div>
+
+    <div class="card">
+      <div class="project-number">PROJECT 02</div>
+      <h3>Crest Physiotherapy Clinic</h3>
+      <p>Social media creative design, Facebook advertising
+      and lead generation campaign activities.</p>
+      <p><strong>Tools:</strong> Meta Ads, Canva</p>
+    </div>
+
+    <div class="card">
+      <div class="project-number">PROJECT 03</div>
+      <h3>Kattil – SEO Project</h3>
+      <p>Keyword research, competitor analysis and
+      SEO improvement recommendations.</p>
+      <p><strong>Tools:</strong> SEO research tools</p>
+    </div>
+
+    <div class="card">
+      <div class="project-number">PROJECT 04</div>
+      <h3>JS Furniture Mart</h3>
+      <p>Social media marketing, promotional creatives,
+      WhatsApp marketing and online promotions.</p>
+      <p><strong>Tools:</strong> Canva, Instagram, Facebook</p>
+    </div>
+
+  </div>
+</section>
+
+<section class="certificates" id="certificates">
+  <div class="tag">MY QUALIFICATIONS</div>
+  <h2 class="section-title">Education & Certifications</h2>
+
+  <div class="grid">
+    <div class="card">
+      <h3>Bachelor of Commerce</h3>
+      <p>Teresa Arts & Science College</p>
+      <p>Graduated: 2025</p>
+    </div>
+
+    <div class="card">
+      <h3>Digital Marketing Specialist</h3>
+      <p>DigitalX Marketers Academy</p>
+      <p>Completed: December 2025</p>
+    </div>
+
+    <div class="card">
+      <h3>HubSpot Certifications</h3>
+      <p>Digital Marketing, SEO and Digital Advertising.</p>
+    </div>
+
+    <div class="card">
+      <h3>Semrush Certifications</h3>
+      <p>Local SEO, On-Page SEO, Keyword Research and SEO Essentials.</p>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="tag">LET'S CONNECT</div>
+  <h2 class="section-title">Contact Me</h2>
+  <p>Open to Digital Marketing opportunities in Dubai, UAE.</p>
+  <p>Email: <a href="mailto:tharsitharsi708@gmail.com">
+  tharsitharsi708@gmail.com</a></p>
+  <p>LinkedIn: <a href="https://www.linkedin.com/in/tharsithasan/">
+  View My LinkedIn Profile</a></p>
+  <p>Location: Dubai, UAE</p>
+</section>
+
+<footer>
+  © 2026 Tharsi Thasan. All Rights Reserved.
+</footer>
+
+</body>
+</html>
